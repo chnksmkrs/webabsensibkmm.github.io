@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href="./logoweb.png" rel="shortcut icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Absensi Siswa/Mahasiswa</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #20c997">
+      <div class="container">
+        <a class="navbar-brand nav-link disabled" href="#">SIA Siswa PKL BKMM Makassar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mulai Absen</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="absen.html">Masuk</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Pulang</a></li>
+                </ul>
+              </li>
+              <a class="nav-link active" aria-current="page" href="profileSiswa.html">Profil</a>
+            </li>
+            <li class="nav-item">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Log Out</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Peringatan</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">Yakin mau keluar?</div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                      <a href="../index.html" class="btn btn-danger btn-user btn-block">Keluar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+      <div class="student-profile py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card shadow-sm">
+                <div class="card-header bg-transparent text-center">
+                  <img class="profile_img img-thumbnail" src="https://source.unsplash.com/600x300/?student" alt="student dp">
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-8">
+                <div class="card shadow-sm">
+                  <div class="card-header">
+                    <h3 class="mb-0 text-center"><i class="far fa-clone pr-1"></i>Profil</h3>
+                  </div>
+                  <div class="card-body">
+                    <table class="table table-transparent">
+                      <tr>
+                        <th width="30%">Nama</th>
+                        <td width="2%">:</td>
+                        <td>Muhammad Alifran</td>
+                      </tr>
+                      <tr>
+                        <th width="30%">Tanggal Lahir</th>
+                        <td width="2%">:</td>
+                        <td>21 Mei 1999</td>
+                      </tr>
+                      <tr>
+                        <th width="30%">Alamat</th>
+                        <td width="2%">:</td>
+                        <td>Jln. Veteran Selatan</td>
+                      </tr>
+                      <tr>
+                        <th width="30%">No. Handphone</th>
+                        <td width="2%">:</td>
+                        <td>08217382847</td>
+                      </tr>
+                      <tr>
+                        <th width="30%">Asal Sekolah</th>
+                        <td width="2%">:</td>
+                        <td>SMK Negeri 5 Makassar</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</html>
